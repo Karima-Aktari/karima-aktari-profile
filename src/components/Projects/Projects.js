@@ -14,14 +14,14 @@ const Projects = () => {
         {
             id: 2,
             img: project1,
-            name: 'CARHOUSE',
+            name: 'NIRAPOD TRAVELS',
             type: 'Full Stack'
         },
         {
             id: 3,
             img: project1,
-            name: 'CARHOUSE',
-            type: 'Full Stack'
+            name: 'Unique Specialist Hospital',
+            type: 'Front-end'
         },
         {
             id: 4,
