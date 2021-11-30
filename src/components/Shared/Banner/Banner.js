@@ -9,7 +9,7 @@ const Banner = () => {
             <div className="col-12 col-md-6 p-4">
                 <img src={img} className="w-100 img-fluid rounded-pill p-4" alt="" />
             </div>
-            <div className="col-12 col-md-6 mt-5 pt-5">
+            <div className="col-12 col-md-6 my-5 py-5">
                 <div className="text-light">
                     <h2>Hi! I Am</h2>
                     <h1>KARIMA AKTARI</h1>
@@ -17,7 +17,7 @@ const Banner = () => {
                     <h3>Developer</h3>
                     <a rel="noopener noreferrer"
                         target="_blank" href="https://drive.google.com/file/d/1EOkspP1aQXGBMWBcVLCMCLLYi7SLVeR9/view?usp=sharing">
-                        <Button className="mt-3 px-3" variant="info">My Resume</Button></a>
+                        <Button className="mt-3 px-3 banner-btn" variant="info">My Resume</Button></a>
                 </div>
                 <div className="pt-4">
                     <a rel="noopener noreferrer"

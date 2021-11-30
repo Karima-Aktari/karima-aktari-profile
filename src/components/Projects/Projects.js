@@ -1,37 +1,18 @@
 import React from 'react';
-import project1 from '../../Images/project-1.png';
+import { useEffect } from 'react';
+import { useState } from 'react';
 import Project from '../Project/Project';
 import './Projects.css'
 
 const Projects = () => {
-    const projects = [
-        {
-            id: 1,
-            img: project1,
-            name: 'CARHOUSE',
-            type: 'Full Stack'
-        },
-        {
-            id: 2,
-            img: project1,
-            name: 'NIRAPOD TRAVELS',
-            type: 'Full Stack'
-        },
-        {
-            id: 3,
-            img: project1,
-            name: 'Unique Specialist Hospital',
-            type: 'Front-end'
-        },
-        {
-            id: 4,
-            img: project1,
-            name: 'CARHOUSE',
-            type: 'Full Stack'
-        },
+    const [projects, setProjects] = useState([]);
 
-    ]
-
+    useEffect(() => {
+        fetch('/projects.json')
+            .then(res => res.json())
+            .then(data => setProjects(data))
+    }, [])
+    console.log(projects);
     return (
         <div id="projects" className="bg-projects py-3">
             <h1>My Projects</h1>

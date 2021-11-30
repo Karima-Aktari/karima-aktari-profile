@@ -7,7 +7,7 @@ import Footer from '../Shared/Footer/Footer';
 
 const Home = () => {
     return (
-        <div id="home">
+        <div id="home" className="bg-dark">
             <Header></Header>
             <Banner></Banner>
             <Projects></Projects>
