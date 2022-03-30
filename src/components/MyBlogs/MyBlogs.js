@@ -1,12 +1,13 @@
 import React from 'react';
 import lifeImage from '../../Images/React-Component-LifeCycle.png';
 import codeImg2 from '../../Images/code-img2.JPG';
+import './MyBlogs.css';
 
 const MyBlogs = () => {
     return (
         <div>
-            <h2 className="bg-dark text-light">MY BLOGS</h2>
-            <div className=" container bg-warning text-dark mx-auto my-5 py-4 rounded-3">
+            <h2 className="bg-dark text-light py-2">MY BLOGS</h2>
+            <div className=" container bg-warning mx-auto my-5 py-4 rounded-3">
                 <h1>Blog on React </h1>
                 <div className="d-flex justify-content-center flex-column w-100 text-wrap p-4 fs-4">
                     <p>

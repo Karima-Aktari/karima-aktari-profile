@@ -1,8 +1,22 @@
 .banner-bg{
-    background-color: rgb(41, 63, 70);
+    background-color: rgba(7, 0, 12, 0.877);
 
 }
+
  .banner-bg:hover .banner-btn{
     transform:scale(1.2);
     transition: transform 1s;
 }
+
+.ellipse{
+    border-radius: 50%;
+    background: brown;
+}
+
+/* .img-gradient{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+} */
+/* The color of the link will display as pink while the link is being clicked but before the mouse click is released. */
+/* a:active {
+    color: pink;
+  } */

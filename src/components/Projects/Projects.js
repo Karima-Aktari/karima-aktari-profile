@@ -14,9 +14,9 @@ const Projects = () => {
     }, [])
     console.log(projects);
     return (
-        <div id="projects" className="bg-projects py-3">
+        <div id="projects" className="mx-auto bg-projects py-3">
             <h1>My Projects</h1>
-            <div className="row mx-auto py-3">
+            <div className="container row mx-auto py-3">
                 {
                     projects.map(project => <Project
                         key={project.id}

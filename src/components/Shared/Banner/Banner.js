@@ -17,7 +17,7 @@ const Banner = () => {
                     <h3>Developer</h3>
                     <a rel="noopener noreferrer"
                         target="_blank" href="https://drive.google.com/file/d/1EOkspP1aQXGBMWBcVLCMCLLYi7SLVeR9/view?usp=sharing">
-                        <Button className="mt-3 px-3 banner-btn" variant="info">My Resume</Button></a>
+                        <Button className="mt-3 px-3 banner-btn ellipse" variant="info">My Resume</Button></a>
                 </div>
                 <div className="pt-4">
                     <a rel="noopener noreferrer"

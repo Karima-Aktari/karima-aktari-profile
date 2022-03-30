@@ -12,9 +12,9 @@ const ProjectsDetails = () => {
             .then(res => res.json())
             .then(data => setDetails(data));
     }, [])
-    console.log(details);
+
     const exactDetail = details?.filter(detail => detail.id === projectId)
-    console.log(exactDetail);
+
     return (
         <div className="bg-dark text-light py-4">
             <h2> {projectId}</h2>
@@ -26,13 +26,13 @@ const ProjectsDetails = () => {
                         <img src={exactDetail[0]?.img2} className="card-img-top bg-dark" alt="" />
                     </div>
                 </div>
-                <div className="col project">
-                    <div className="card h-100">
-                        <img src={exactDetail[0]?.img3} className="card-img-top bg-dark" alt="" />
+                <div className="col">
+                    <div className="card h-100  project">
+                        <img src={exactDetail[0]?.img3} className="card-img-top bg-dark h-full" alt="" />
                     </div>
                 </div>
-                <div className="col project">
-                    <div className="card h-100">
+                <div className="col">
+                    <div className="card h-100 project">
                         <img src={exactDetail[0]?.img4} className="card-img-top bg-dark" alt="" />
                     </div>
                 </div>
