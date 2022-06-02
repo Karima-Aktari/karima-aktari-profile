@@ -2,13 +2,17 @@ import React from 'react';
 import lifeImage from '../../Images/React-Component-LifeCycle.png';
 import codeImg2 from '../../Images/code-img2.JPG';
 import './MyBlogs.css';
+import { Button } from 'react-bootstrap';
 
 const MyBlogs = () => {
     return (
         <div>
-            <h2 className="bg-dark text-light py-2">MY BLOGS</h2>
+            <h2 className="bg-primary text-light py-2">MY BLOGS</h2>
+            <a rel="noopener noreferrer"
+                target="_blank" href="https://dev.to/karimaaktari119">
+                <Button className="mt-3 px-3 btn-cyan" variant="info">Go to my blog</Button></a>
             <div className=" container bg-warning mx-auto my-5 py-4 rounded-3">
-                <h1>Blog on React </h1>
+                <h1>About React </h1>
                 <div className="d-flex justify-content-center flex-column w-100 text-wrap p-4 fs-4">
                     <p>
                         <b>1. JSX:</b> JSX stands for JavaScript syntax extension. It is a syntax extension to JavaScript.Using without any createElement() and/or appendChild() methods we can  write HTML elements in JavaScript and place them in the DOM with the help of JSX. It allows us to write HTML in React. It makes it easier to write and converts HTML tags into react elements.
@@ -46,7 +50,7 @@ const MyBlogs = () => {
             </div>
 
             <div className=" container bg-success text-dark mx-auto my-5 py-4 rounded-3">
-                <h1>Blog-Backend</h1>
+                <h1>About Backend</h1>
                 <div className="d-flex justify-content-left flex-column w-100 text-wrap p-4 fs-5">
                     <p>
                         <b>CRUD Operations:</b> CRUD is an acronym. CRUD stands for Create, Read, Update, and Delete. These are four primitive database operations of persistent storage. Each letter of CRUD can refer to all functions we use to implement persistent storage applications and relational database applications, including the Oracle Database,SQL Server, and  MySQL. <br />
@@ -86,3 +90,5 @@ const MyBlogs = () => {
 };
 
 export default MyBlogs;
+
+// https://dev.to/karimaaktari119/about-react-4aja-temp-slug-9227098?preview=6c988bb7daf264e759e70f7788d9f9df9e54f12cb7168c75c3fda1fd676577ca5d61a87bd68d32a4a0665abcde3f26f8e6b2b82bb9147ca8d361bf44
