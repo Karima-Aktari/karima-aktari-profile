@@ -1,16 +1,16 @@
-.banner-bg{
+.banner-bg {
     background-color: rgba(7, 0, 12, 0.877);
 
 }
 
- .banner-bg:hover .banner-btn{
-    transform:scale(1.2);
+.banner-bg:hover .banner-btn {
+    transform: scale(1.2);
     transition: transform 1s;
 }
 
-.ellipse{
+.ellipse {
     border-radius: 50%;
-    background: brown;
+    background: rgb(252, 74, 89);
 }
 
 /* .img-gradient{
